@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stunning Landing Page</title>
+    <style>
+      .navbar {
+        display: flex;
+        width: 100%;
+        height: 100px;
+      }
+      .logo {
+        width: 30%;
+        margin-left: 40px;
+      }
+      .logo img {
+        width: 120px;
+      }
+      .header {
+        width: 40%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        height: 100px;
+      }
+      .header a {
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        margin-left: 10px;
+      }
+      .header a:hover {
+        text-decoration: underline;
+        text-decoration-color: blue;
+      }
+      .account {
+        width: 30%;
+        justify-content: center;
+        align-items: center;
+        height: 100px;
+        margin-left: 20px;
+        text-align: center;
+      }
+      .account button {
+        border-radius: 20px;
+        background-color: #ffd8db;
+        height: 50px;
+        width: 120px;
+        border-color: inherit;
+        color: #a389cc;
+        border: none;
+      }
+      body {
+        font-family: Verdana, sans-serif;
+      }
+      .root {
+        display: flex;
+        width: 100%;
+      }
+      .body1 {
+        width: 50%;
+        padding-left: 60px;
+        font-family: Verdana, sans-serif;
+      }
+      .body1 h1 {
+        font-size: 80px;
+        text-align: left;
+        margin-bottom: 0%;
+        margin-top: 0%;
+        margin-left: 80px;
+        font-family: Verdana, sans-serif;
+      }
+      .body1p {
+        text-align: left;
+        padding: 14px 16px;
+        text-decoration: none;
+        margin-bottom: 0%;
+        margin-top: 40px;
+        margin-left: 80px;
+        font-family: Verdana, sans-serif;
+      }
+      .newaccount {
+        width: 40%;
+        display: flex;
+        margin-bottom: 0%;
+        margin-top: 5%;
+        margin-left: 80px;
+      }
+      .body1button {
+        border-radius: 20px;
+        background-color: #5243c0;
+        height: 60px;
+        width: 150px;
+        border-color: inherit;
+        color: #ffffff;
+        font-size: 15px;
+        border: none;
+      }
+      .newaccount img {
+        margin-left: 5px;
+        padding-left: 10px;
+        padding-top: 5px;
+        height: 50px;
+      }
+      .body2 {
+        width: 50%;
+      }
+
+      .boxes {
+        margin-top: 50px;
+      }
+      .boxesbutton {
+        display: flex;
+        width: 350px;
+        cursor: pointer;
+        border: none;
+        background-color: rgb(248, 248, 248);
+        border-radius: 5px;
+        margin: 5px 5px 15px 80px;
+        position: relative;
+      }
+
+      .boxesbutton img {
+        margin-left: 5px;
+        margin-top: 8px;
+        margin-bottom: 8px;
+        height: 30px;
+      }
+      .boxesbutton p {
+        width: 100px;
+        text-align: left;
+        margin-left: 10px;
+      }
+      .blankspace {
+        width: 40px;
+        border-radius: 10px;
+        border: none;
+        margin-top: 10px;
+      }
+      .boxesbuttonhover {
+        position: absolute;
+        opacity: 0;
+      }
+
+      .boxes .boxesbutton:hover .boxesbuttonhover {
+        opacity: 1;
+      }
+      .boxes .boxesbutton:hover {
+        background-color: #ffffff;
+        border: 1px solid rgb(248, 248, 248);
+        box-shadow: 5px 10px 18px 10px rgb(248, 248, 248);
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="logo">
+        <img src="/Assignment-02/stunning-logo.png" alt="logo" />
+      </div>
+      <div class="header">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#blogs">Blogs</a>
+        <a href="#jobs">Jobs</a>
+      </div>
+      <div class="account">
+        <button>Your Account</button>
+      </div>
+    </div>
+
+    <div class="root">
+      <div class="body1">
+        <h1>Stunning Workplace<span style="color: blue">.</span></h1>
+        <p class="body1p">
+          With Stunning, remote teams can organize projects,<br />
+          manage shifting priorities, and get work done.
+        </p>
+
+        <div class="newaccount">
+          <button class="body1button">New Account</button>
+          <div>
+            <img src="/Assignment-02/arrow-up.png" alt="arrow up" />
+            <img src="/Assignment-02/arrow-down.png" alt="arrow down" />
+          </div>
+        </div>
+
+        <div class="boxes">
+          <button class="boxesbutton">
+            <img src="/Assignment-02/tick-gray.png" alt="tickgrey" />
+            <img
+              class="boxesbuttonhover"
+              src="/Assignment-02/tick-blue.png"
+              alt="tickblue"
+            />
+            <p>Dmm Design</p>
+            <img src="/Assignment-02/user-pink.png" alt="user pink" />
+            <p style="text-align: center">20 Dec</p>
+            <input
+              class="blankspace"
+              style="background-color: #fed7da"
+              type="button"
+            />
+          </button>
+
+          <button class="boxesbutton">
+            <img src="/Assignment-02/tick-gray.png" alt="tickgrey" />
+            <img
+              class="boxesbuttonhover"
+              src="/Assignment-02/tick-blue.png"
+              alt="tickblue"
+            />
+            <p>Blur animation</p>
+            <img src="/Assignment-02/user-orange.png" alt="user pink" />
+            <p style="text-align: center">22 Dec</p>
+            <input
+              class="blankspace"
+              style="background-color: #fd6534"
+              type="button"
+            />
+          </button>
+
+          <button class="boxesbutton">
+            <img src="/Assignment-02/tick-gray.png" alt="tickgrey" />
+            <img
+              class="boxesbuttonhover"
+              src="/Assignment-02/tick-blue.png"
+              alt="tickblue"
+            />
+            <p>Illustration</p>
+            <img src="/Assignment-02/user-blue.png" alt="user pink" />
+            <p style="text-align: center">26 Dec</p>
+            <input
+              class="blankspace"
+              style="background-color: #9ed095"
+              type="button"
+            />
+          </button>
+
+          <button class="boxesbutton">
+            <img src="/Assignment-02/tick-gray.png" alt="tickgrey" />
+            <img
+              class="boxesbuttonhover"
+              src="/Assignment-02/tick-blue.png"
+              alt="tickblue"
+            />
+            <p>Refunds</p>
+            <img src="/Assignment-02/user-red.png" alt="user pink" />
+            <p style="text-align: center">28 Dec</p>
+            <input
+              class="blankspace"
+              style="background-color: #ffe4a0"
+              type="button"
+            />
+          </button>
+        </div>
+      </div>
+      <div class="body2">
+        <img src="/Assignment-02/landing-section-image.png" />
+      </div>
+    </div>
+  </body>
+</html>
